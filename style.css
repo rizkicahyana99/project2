@@ -1,0 +1,118 @@
+body {
+    background-color: #f6f7fc;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+
+}
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #afafaf;
+}
+li a:hover {
+    background-color: #2e6e16;
+    color: #fff;
+}
+.profile {
+    background-color: #ffffff;
+    width: 100%;
+    height: 240px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 grey;
+    border-radius: 5px;
+}
+.left {
+    float: left;
+    padding-left: 70px;
+}
+.right {
+    float: left;
+    padding-left: 300px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+.kontak {
+    background-color: #0000f4;
+    color: #fff;
+    height: 30px;
+    border: none;
+    width: 40%;
+    border-radius: 5px;
+}
+.kontak:hover {
+    background-color: #4b8c34;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+.resume {
+    background-color: #fff;
+    color: #2e6e16;
+    height: 30px;
+    border: none;
+    width: 40%;
+    border: solid 2px #2e6e16;
+    border-radius: 5px;
+}
+.resume:hover {
+    background-color: #4b8c34;
+    border: #4b8c34;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+.card-form {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 grey;
+    border-radius: 5px;
+
+}
+.card-input {
+    padding: 20px;
+}
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 13px;
+}
+.submit {
+    background-color: #2e6e16;
+    color: #fff;
+    width: 100%;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #184508;
+}
+.content {
+    margin: 60px;
+    margin-top: 90px;
+}
+
+@media(min-width: 321px) and (max-width: 400px) {
+    #profile-picture {
+        /* text-align: center; */
+    }
+    .profile {
+        heigth: 500px;
+    }
+}
